@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Expresso
 
 ## Project Overview
@@ -163,3 +164,7 @@ As you implement functionality, run the tests to
 ensure you are creating correctly named variables and functions that return the proper values.
 The tests will additionally help you identify edge cases that you may not have anticipated
 when first writing the functions.
+=======
+# expresso
+Codecademy Capstone Project 
+>>>>>>> refs/remotes/origin/master
