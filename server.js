@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
+const errorhandler = require('errorhandler');
 const employeeRouter = require("./routes/api/employees.js");
 //const menuRouter = require("./routes/api/menus.js");
 
@@ -15,6 +16,7 @@ app.use(express.static('public'));
 
 // Middleware
 app.use(bodyParser.json());
+app.use(errorhandler());
 app.use(morgan('dev'));
 
 // Route handlers
